@@ -4,11 +4,6 @@ Este repositório contém exercícios e estudos de análise de dados utilizando 
 
 O objetivo é praticar manipulação de dados, cálculos de métricas de negócio e análises simples a partir de conjuntos de dados simulados.
 
-## Tecnologias utilizadas
-
-- Python
-- Pandas
-
 ## Estrutura do projeto
 
 01-fundamentos  
