@@ -1,19 +1,7 @@
 # Business-Questions
 
 Este repositório contém exercícios e estudos de análise de dados utilizando Python e a biblioteca Pandas.
-
 O objetivo é praticar manipulação de dados, cálculos de métricas de negócio e análises simples a partir de conjuntos de dados simulados.
-
-## Estrutura do projeto
-
-01-fundamentos  
-Exercícios básicos de manipulação de dados com Pandas.
-
-02-analise-vendas  
-Análises de vendas como faturamento total, ranking de categorias e formas de pagamento.
-
-03-analise-vendedores  
-Análises de desempenho de vendedores e produtos mais vendidos.
 
 ## Exemplos de análises realizadas
 
@@ -29,9 +17,10 @@ Análises de desempenho de vendedores e produtos mais vendidos.
 
 ```python
 df['faturamento'] = df['preco'] * df['quantidade']
-faturamento_total = df['faturamento'].sum()
-
-print(faturamento_total)
+print(df)
+print('-'*75)
+print(f'O faturamento total foi {df['faturamento'].sum()}.')
+print('-'*60)
 ```
 
 ## Objetivo
