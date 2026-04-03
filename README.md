@@ -25,4 +25,4 @@ else:
 
 ## Objetivo
 
-Praticar conceitos de análise de dados e desenvolver habilidades com Python - Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn e Plotly.
+Praticar conceitos de análise de dados e desenvolver habilidades com Python, Pandas.
