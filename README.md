@@ -16,11 +16,11 @@ O objetivo é praticar manipulação de dados, cálculos de métricas de negóci
 ## Exemplo de código
 
 ```python
-df['faturamento'] = df['preco'] * df['quantidade']
-print(df)
-print('-'*75)
-print(f'O faturamento total foi {df['faturamento'].sum()}.')
-print('-'*60)
+produtos_zerados = df[df['quantidade'] == 0]['produto'].unique()
+if len(produtos_zerados) > 0:
+    print(f"Produtos com vendas zeradas: {list(produtos_zerados)}")
+else:
+    print("Não há produtos com vendas zeradas nos registros de venda.")
 ```
 
 ## Objetivo
